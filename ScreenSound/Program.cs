@@ -1,12 +1,13 @@
 ﻿using ScreenSound.Modelos;
 using ScreenSound.Menus;
 using System.ComponentModel.Design;
+using System.Security.Cryptography.X509Certificates;
 
 internal class Program
 {
     private static void Main(string[] args)
     {
-       
+          
         Banda ira = new Banda("Ira");
         ira.AdicionarNota(new Avaliacao(10));
         ira.AdicionarNota(new Avaliacao(9));
